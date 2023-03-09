@@ -58,7 +58,7 @@ body{
  }
 .form a{
   font-size: 16px;
-  color: #009579;
+  color: #EFB0C9;
   text-decoration: none;
 }
 .form a:hover{
@@ -82,7 +82,7 @@ body{
   text-align: center;
 }
 .signup label{
-  color: #009579;
+  color: #EFB0C9;
   cursor: pointer;
 }
 .signup label:hover{
