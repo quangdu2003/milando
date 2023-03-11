@@ -1,1 +1,9 @@
-httpProxy.createServer({changeOrigin: true, target: 'http://www.cloudflare.com'}).listen(8000);
+upstream backend {
+  server domain1.com;
+  server domain2.com;
+}
+server {
+  listen 80;
+  location / {
+    proxy_pass http://backend;
+ }
